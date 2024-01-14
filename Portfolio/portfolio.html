@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="portfolio.css">
+    </head>
+    <body>
+        <header>
+            <div class="user">
+                <img src="profilepic.png" alt="" >
+                <h3 class="name">Dondla Sreenivasulu</h3>
+                <p class="post">Front End Developer</p>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#portfolio">MyProjects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="menu" class="fas fa-bars"></div>
+        <selection class="home" id="home">
+            <h3>HI THERE!</h3>
+            <h1>I'm <span>Dondla Sreenivasulu</span></h1>
+            <p>Web Developer</p>
+            <a href="#about"><button class="btn">About me<i class="fas fa-user"></i></button></a>
+        </selection>
+        <selection class="about"id="about">
+            <h1 class="heading"><span>About</span>Me</h1>
+            <div class="row">
+                <div class="info">
+                    <h3><span>Name : </span>Dondla Sreenivasulu</h3>
+                    <h3><span>Age : </span>22</h3>
+                    <h3><span>Qualification : </span>B.Tech</h3>
+                    <h3><span>Post : </span>FrontEnd Developer</h3>
+                    <h3><span>Language : </span>English</h3>
+                    <a href="https://drive.google.com/file/d/1Ao_Q2m2CrVn0MkkA0DfVAuh9w36euS5H/view?usp=drivesdk"><button class="btn">Download Resume<i class="fas fa-download"></i></button></a>
+                    
+                </div>
+                <div class="counter">
+                    <div class="box">
+                        <span>10+</span>
+                        <h3>Projects completed</h3>
+                    </div>
+                    <div class="box">
+                        <span>15+</span>
+                        <h3>Certifications completed</h3>
+                    </div>
+                </div>
+            </div>
+        </selection>
+        <section class="education"id="education">
+            <h1 class="heading">My<span>Education</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2024</span>
+                    <h3>BTech</h3>
+                    <p>Persuing</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2020</span>
+                    <h3>Intermediate</h3>
+                    <p>Completed with 95% aggregate</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2018</span>
+                    <h3>Secondary Education</h3>
+                    <p>Completed with 97% aggregate</p>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <h1 class="heading">My<span>Projects</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <a href="https://github.com/Seenu-Dondla/Product-Landing-Page" class="projects">Landing Page</a>
+                    <img src="Image-1.png" alt="">
+                </div>
+                <div class="box">
+                    <a href="https://github.com/Seenu-Dondla/Temperature-Converter" class="projects">Temperature Converter</a>
+                    <img src="Image-2.png" alt="">
+                </div>
+                <div class="box">
+                    <a href="https://github.com/Seenu-Dondla/LGMVIP-Web-Task-1" class="projects">To Do List</a>
+                    <img src="Image-3.png" alt="">
+                </div>
+                <div class="box">
+                    <a href="https://github.com/Seenu-Dondla/LGMVIP-Web-Task-3" class="projects">Registration Form</a>
+                    <img src="Image-4.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h1 class="heading"><span>Contact</span>Me</h1>
+            <div class="row">
+                <div class="content">
+                    <h3 class="title">Contact info</h3>
+                    <div class="info">
+                        <h3><i class="fas fa-envelope"></i>seenudondla@gmail.com</h3>
+                        <h3><i class="fas fa-phone"></i>+91 9182332722</h3>
+                        <h3><i class="fas fa-map-marker-alt"></i>Madanapalle,India-517325.</h3>
+                    </div>
+                </div>
+                <form active="">
+                    <input type="text" placeholder="Name" class="box">
+                    <input type="email" placeholder="Email" class="box">
+                    <input type="text" placeholder="Project" class="box">
+                    <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Message"></textarea>
+                    <button type="submit" class="btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="portfolio.js"></script>
+    </body>
+</html>
